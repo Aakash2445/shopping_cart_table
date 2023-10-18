@@ -1,0 +1,105 @@
+ h2{
+    text-align: center;
+ }
+.discount-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-top: 2px solid black;  
+  
+}
+
+.discount-table th {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;  
+    border-width: 2px;
+}
+
+.discount-table td {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000;
+    border-width: 2px;
+}
+
+.product-table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-top: 2px solid black; 
+}
+.product-table th{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;  
+    border-width: 2px;
+}
+.product-table td{
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #000;
+    border-width: 2px;
+}
+.product-table td:last-child {
+    background-color: green;
+    border-color: white;
+   
+}
+
+.product-table td:last-child button {
+ 
+    background-color: inherit;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+ }
+.shopping-cart{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-top: 2px solid black; 
+}
+.shopping-cart th{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white; 
+    border-width: 2px;
+}
+.shopping-cart td{
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #000;
+    border-width: 2px;
+}
+ 
+.shopping-cart td:last-child {
+    background-color: red;
+   
+ 
+}
+
+.shopping-cart td:last-child[type="submit"]  {
+    background-color: inherit;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+ }
+ 
+ 
+
+ 
+
+ 
